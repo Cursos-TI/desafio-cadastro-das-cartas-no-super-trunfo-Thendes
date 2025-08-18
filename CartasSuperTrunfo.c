@@ -13,10 +13,12 @@ int main() {
     float pibpercapta;
 
     printf("--- Carta 1 ---\n");
-
+    
+    /* Escolhi a sigla para suprir o problema do uso do espaço */
     printf("\nDigite o estado (Sigla): ");
     scanf(" %s",estado);
-
+    
+    /* Escolhi a sigla para suprir o problema do uso do espaço */
     printf("\nDigite a cidade (Sigla): ");
     scanf(" %s",cidade);
 
@@ -53,10 +55,12 @@ int main() {
     /* --------------- CARTA 1 --------------- */
 
     printf("\n--- Carta 2 ---\n");
-
+    
+    /* Escolhi a sigla para suprir o problema do uso do espaço */
     printf("\nDigite o estado (Sigla): ");
     scanf(" %s",estado);
-
+    
+    /* Escolhi a sigla para suprir o problema do uso do espaço */
     printf("\nDigite a cidade (Sigla): ");
     scanf(" %s",cidade);
 
