@@ -38,11 +38,11 @@ int main() {
     printf("\nPossui quantos pontos turísticos? ");
     scanf(" %d",&pontosturisticos1);
 
-    densidadepop1 = populacao1 / area1;
+    densidadepop1 = (double) populacao1 / area1;
 
-    pibpercapta1 = pib1 / populacao1;
+    pibpercapta1 = (double) pib1 / populacao1;
 
-    superpoder1 = (unsigned long long int) populacao1 + area1 + pib1 + pontosturisticos1 + (1 / densidadepop1) + pibpercapta1;
+    superpoder1 = (double) populacao1 + area1 + (double) pib1 + pontosturisticos1 + (1 / densidadepop1) + pibpercapta1;
 
     printf("\n--- Dados da Carta 1 ---\n");
     printf("\nEstado: %s\n", estado1);
@@ -94,11 +94,11 @@ int main() {
     printf("\nPossui quantos pontos turísticos? ");
     scanf(" %d",&pontosturisticos2);
     
-    densidadepop2 = populacao2 / area2;
+    densidadepop2 = (double) populacao2 / area2;
 
-    pibpercapta2 = pib2 / populacao2;
+    pibpercapta2 = (double) pib2 / populacao2;
 
-    superpoder2 = (unsigned long long int) populacao2 + area2 + pib2 + pontosturisticos2 + (1 / densidadepop2) + pibpercapta2;
+    superpoder2 = (double) populacao2 + area2 + (double) pib2 + pontosturisticos2 + (1 / densidadepop2) + pibpercapta2;
 
     printf("\n--- Dados da Carta 2 ---\n");
     printf("\nEstado: %s\n", estado2);
