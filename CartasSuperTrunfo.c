@@ -11,7 +11,7 @@ int main() {
     int pontosturisticos1;
     float densidadepop1;
     float pibpercapta1;
-    unsigned long long int superpoder1;
+    double superpoder1;
 
     printf("--- Carta 1 ---\n");
     
@@ -54,7 +54,7 @@ int main() {
     printf("\nPontos turísticos: %d\n", pontosturisticos1);
     printf("\nDensidade populacional: %f Hab/Km²\n", densidadepop1);
     printf("\nPIB per capta: R$ %.1f\n", pibpercapta1);
-    printf("\nSuper Poder: %llu\n", superpoder1);
+    printf("\nSuper Poder: %lf\n", superpoder1);
 
     /* --------------- CARTA 1 --------------- */
 
@@ -67,7 +67,7 @@ int main() {
     int pontosturisticos2;
     float densidadepop2;
     float pibpercapta2;
-    unsigned long long int superpoder2;
+    double superpoder2;
 
     printf("\n--- Carta 2 ---\n");
     
@@ -110,7 +110,7 @@ int main() {
     printf("\nPontos turísticos: %d\n", pontosturisticos2);
     printf("\nDensidade populacional: %f Hab/Km²\n", densidadepop2);
     printf("\nPIB per capta: R$ %.1f\n", pibpercapta2);
-    printf("\nSuper Poder: %llu\n", superpoder2);
+    printf("\nSuper Poder: %lf\n", superpoder2);
 
     /* --------------- CARTA 2 --------------- */
 
